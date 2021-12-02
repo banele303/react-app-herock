@@ -1,0 +1,53 @@
+.header-2{
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:50px
+}
+.containers{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right img{
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.resume-btn{
+    margin: 10px;
+}
+.social-iconz{
+  margin-top: 20px;
+  display: flex;
+}
+.social-icon-lin{
+    color:green;
+    padding-right: 8px;
+    font-size: 25px;
+    padding: 8px;
+    border-radius: 40%;
+}
+.social-icon-lin:hover{
+
+color: rgb(3, 71, 3);
+}
+.img{
+    border-radius: 10px;
+   
+  }
+  .img:hover{
+    transition:  .35s ease-in-out;
+    opacity: 0.8;
+    transform: scale(1.02);
+  
+  }

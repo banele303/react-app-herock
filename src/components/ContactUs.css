@@ -1,0 +1,58 @@
+
+.contact-container{
+/*background-image: url('../images/img-3.jpg') ;*/
+padding-bottom: 100px;
+background: url("https://www.toptal.com/designers/subtlepatterns/patterns/double-bubble-outline.png");
+  
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.contact-head h1{
+  margin-top: 10px;
+   color:black;
+
+}
+.contact-form{
+  padding: 20px;
+  margin: 10px;
+}
+.mb-3 label{
+   color:black;
+    font-size: 21px;
+}
+.form-control{
+    max-width: 400px;
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   color:black;
+}
+@media screen  and (max-width:450px) {
+    .contact-details{
+       margin-bottom: 0px;
+    }
+}
+.contact-details  h1{
+ padding: 8px;
+margin-bottom: 10px;
+text-decoration: underline;
+ 
+}
+.list-items li{
+    text-decoration: none;
+    font-style: none;
+}
+.list-items i {
+    padding: 10px;
+}

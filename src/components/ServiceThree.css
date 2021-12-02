@@ -1,0 +1,37 @@
+.services-container {
+  margin: 0 auto;
+}
+
+.services-container h3 {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 10px;
+  text-decoration: 3px solid darkgrey underline;
+}
+
+.services-container p {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  max-width: 800px;
+  background-color: darkgray;
+  border-radius: 5px;
+  margin-bottom: 100px;
+  margin-top: 40px;
+}
+.row{
+    margin-top: 100px;
+}
+.img{
+  border-radius: 10px;
+}
+.img:hover{
+  transition:  .35s ease-in-out;
+  opacity: 0.8;
+  transform: scale(1.02);
+}
